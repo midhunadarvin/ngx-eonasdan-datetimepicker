@@ -164,7 +164,7 @@ __decorate([
 SqDatetimepickerComponent = __decorate([
     core_1.Component({
         selector: 'sq-datetimepicker',
-        template: "\n    <div [ngStyle]=\"style\">\n      <div class=\"sq-datetimepicker-input-group input-group date\" [ngClass]=\"groupClass\">\n        <input type=\"text\" [ngClass]=\"inputClass\" [readOnly]=\"readOnly\" [placeholder]=\"placeholder\"/>\n        <span class=\"input-group-addon\">\n          <span [ngClass]=\"groupIconClass\"></span>\n        </span>\n      </div>\n      <input type=\"text\" class=\"sq-datetimepicker-input\" [ngClass]=\"inputClass\" [readOnly]=\"readOnly\" [placeholder]=\"placeholder\" />\n      <div class=\"sq-datetimepicker-inline\"></div>\n    </div>",
+        template: "\n    <div [ngStyle]=\"style\">\n      <div class=\"sq-datetimepicker-input-group input-group date\" [ngClass]=\"groupClass\">\n        <input type=\"text\" [ngClass]=\"inputClass\" [readOnly]=\"readOnly\" [placeholder]=\"placeholder\"/>\n        <span class=\"input-group-addon\">\n          <span class=\"fa fa-calendar\" [ngClass]=\"groupIconClass\"></span>\n        </span>\n      </div>\n      <input type=\"text\" class=\"sq-datetimepicker-input\" [ngClass]=\"inputClass\" [readOnly]=\"readOnly\" [placeholder]=\"placeholder\" />\n      <div class=\"sq-datetimepicker-inline\"></div>\n    </div>",
         providers: [exports.SQ_DATETIMEPICKER_VALUE_ACCESSOR, exports.SQ_DATETIMEPICKER_VALIDATOR]
     }),
     __metadata("design:paramtypes", [core_1.ElementRef])

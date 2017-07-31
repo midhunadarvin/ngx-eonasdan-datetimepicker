@@ -30,7 +30,7 @@ export const SQ_DATETIMEPICKER_VALIDATOR: any = {
       <div class="sq-datetimepicker-input-group input-group date" [ngClass]="groupClass">
         <input type="text" [ngClass]="inputClass" [readOnly]="readOnly" [placeholder]="placeholder"/>
         <span class="input-group-addon">
-          <span [ngClass]="groupIconClass"></span>
+          <span class="fa fa-calendar" [ngClass]="groupIconClass"></span>
         </span>
       </div>
       <input type="text" class="sq-datetimepicker-input" [ngClass]="inputClass" [readOnly]="readOnly" [placeholder]="placeholder" />
