@@ -20,19 +20,20 @@
     "dist"
   ],
   "dependencies": {
-    "eonasdan-bootstrap-datetimepicker": "git+https://github.com/midhunadarvin/bootstrap-datetimepicker.git"
+    "eonasdan-bootstrap-datetimepicker": "git+https://github.com/midhunadarvin/bootstrap-datetimepicker.git",
+    "ngc": "^1.0.0"
   },
   "devDependencies": {
-    "@angular/core": "^4.0.0",
-    "@angular/common": "^4.0.0",
+    "@angular/common": "^4.3.2",
     "@angular/compiler": "^4.0.0",
-    "@angular/forms": "^4.0.0",
+    "@angular/core": "^4.3.2",
+    "@angular/forms": "^4.3.2",
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
-    "rxjs": "^5.0.1",
-    "zone.js": "^0.8.4",
     "@types/eonasdan-bootstrap-datetimepicker": "^4.17.22",
     "@types/jquery": "^2.0.34",
-    "typescript": "^2.0.0"
+    "rxjs": "^5.4.2",
+    "typescript": "^2.0.0",
+    "zone.js": "^0.8.4"
   }
 }
