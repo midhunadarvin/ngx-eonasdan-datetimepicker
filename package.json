@@ -20,7 +20,7 @@
     "dist"
   ],
   "dependencies": {
-    "eonasdan-bootstrap-datetimepicker": ">=4.17.22 <5.0.0"
+    "eonasdan-bootstrap-datetimepicker": "git+https://github.com/midhunadarvin/bootstrap-datetimepicker.git"
   },
   "devDependencies": {
     "@angular/core": "^4.0.0",
